@@ -1,0 +1,60 @@
+---
+title: "Sta 523 - Homework 6"
+author: [Your names here]
+output: rmarkdown::html_document
+runtime: shiny
+---
+
+### Setup
+
+```{r}
+# Load any necessary packages here
+
+library(shiny)
+```
+
+<br/><br/>
+
+### Task 1 - Getting data from Dark Sky
+
+<!-- Include your write up here and or below -->
+
+```{r}
+get_darksky = function(key, lat, long, date = NULL) {
+
+}
+```
+
+
+<br/><br/>
+
+### Task 2 - Prediction Locations
+
+<!-- Include your write up here and or below -->
+
+```{r}
+# Create your location data frame here
+us_locs = data.frame()
+```
+
+ 
+ <br/><br/>
+
+### Task 3 - Shiny Predictions
+
+
+<!-- Include your write up here and or below -->
+
+```{r echo=FALSE}
+# Modify this default shiny app
+
+shinyApp(
+  ui = fluidPage(
+
+  ),
+  server = function(input, output, session) 
+  {   
+
+  }
+)
+```
