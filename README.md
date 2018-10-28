@@ -1,6 +1,6 @@
 HW6 - Darksky Shiny App
 -----
-Due Tuesday 11/05 by 11:59 pm
+Due Tuesday 11/06 by 11:59 pm
 
 Dark Sky is an iOS app and website that provides "hyperlocal" weather forecasts. They make their data available to third parties via a web API which we will be using to create a simple shiny app. 
 
