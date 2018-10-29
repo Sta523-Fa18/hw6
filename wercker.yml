@@ -9,4 +9,4 @@ build:
     - script:
         name: Check document compiles
         code: |
-          Rscript -e "library(rmarkdown);render('hw5.Rmd')"
+          Rscript -e "library(rmarkdown);render('hw6.Rmd')"
